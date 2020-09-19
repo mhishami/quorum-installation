@@ -13,11 +13,11 @@
             "policy": 0,
             "ceil2Nby3Block": 0
         },
-        "txnSizeLimit": 128,
+        "txnSizeLimit": 64,
         "maxCodeSizeConfig": [ 
           {
             "block": 0,
-            "size": 128
+            "size": 64
           }
         ],
         "isQuorum": true
@@ -30,19 +30,19 @@
     "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
     "coinbase": "0x0000000000000000000000000000000000000000",
     "alloc": {
-        "8e9770759f2f734234180b40bdceb1631094d5e1": {
+        "cc4a249c1e47e7097c8426859aa42eb615a4e80f": {
             "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
         },
-        "6d7cecb0886bb2a43cc02f33d16986ec4e389e51": {
+        "fd92e96ad7d0399baa016501662b55114d680f4c": {
             "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
         },
-        "e7871dc4646072fd469eca7f746c78ecae2ce2e2": {
+        "cab14c643c3acc661712290fa0121e1f98e66f72": {
             "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
         },
-        "45b62b429e438c2f7ad163eae85d6c8f79386eac": {
+        "f233fe7720803c0f870ce18cc54a4ddcae8b845f": {
             "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
         },
-        "24e083002c5bc359a9f860c8f8efdc94155e54b6": {
+        "2759df56d4616bba23da23029d15a684f5db094c": {
             "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
         }
     },

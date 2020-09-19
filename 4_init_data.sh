@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-cd node0
+cd nodes/node0
 geth --datadir data init genesis.json
 
 cd ../node1
