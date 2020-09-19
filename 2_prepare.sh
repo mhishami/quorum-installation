@@ -10,6 +10,7 @@ mkdir -p node4/data/geth
 cd node0
 ../istanbul-tools/build/bin/istanbul setup --num 5 --nodes --quorum --save --verbose 
 
+cd ..
 LOG=accounts.log
 geth --datadir node0/data account new < passphrase > $LOG
 geth --datadir node1/data account new < passphrase >> $LOG
