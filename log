@@ -1,0 +1,93 @@
+
+quorum@mexc:~/quorum$ geth --datadir node0/data account new < passphrase 
+INFO [09-19|17:43:16.286] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-19|17:43:16.286] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+
+Your new key was generated
+
+Public address of the key:   0x414416843629b6db7aF354Ea191B8ec78701B3E3
+Path of the secret key file: node0/data/keystore/UTC--2020-09-19T09-43-16.287490101Z--414416843629b6db7af354ea191b8ec78701b3e3
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+quorum@mexc:~/quorum$ geth --datadir node1/data account new < passphrase 
+INFO [09-19|17:43:44.957] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-19|17:43:44.958] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+
+Your new key was generated
+
+Public address of the key:   0x4957ada2D50C485Ab20A69Fa05D94589dD517747
+Path of the secret key file: node1/data/keystore/UTC--2020-09-19T09-43-44.959056866Z--4957ada2d50c485ab20a69fa05d94589dd517747
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+quorum@mexc:~/quorum$ geth --datadir node2/data account new < passphrase 
+INFO [09-19|17:43:59.488] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-19|17:43:59.489] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+
+Your new key was generated
+
+Public address of the key:   0x8722fE2092e8470E0869f62c23d5ADd312aDB1Fd
+Path of the secret key file: node2/data/keystore/UTC--2020-09-19T09-43-59.490413088Z--8722fe2092e8470e0869f62c23d5add312adb1fd
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+quorum@mexc:~/quorum$ 
+quorum@mexc:~/quorum$ geth --datadir node3/data account new < passphrase 
+INFO [09-19|17:47:27.875] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-19|17:47:27.876] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+
+Your new key was generated
+
+Public address of the key:   0xce59F73bCEB756055E7EdBBE7A658E99bFD4F8E0
+Path of the secret key file: node3/data/keystore/UTC--2020-09-19T09-47-27.877514228Z--ce59f73bceb756055e7edbbe7a658e99bfd4f8e0
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+quorum@mexc:~/quorum$ geth --datadir node4/data account new < passphrase 
+INFO [09-19|17:47:44.201] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-19|17:47:44.201] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+
+Your new key was generated
+
+Public address of the key:   0xA6C61FE8E8b92273ad381F817432152BA99905Ee
+Path of the secret key file: node4/data/keystore/UTC--2020-09-19T09-47-44.202255297Z--a6c61fe8e8b92273ad381f817432152ba99905ee
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+quorum@mexc:~/quorum$ 

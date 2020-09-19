@@ -1,0 +1,3 @@
+#!/bin/sh
+#
+/home/quorum/quorum/istanbul-tools/build/bin/istanbul $*
