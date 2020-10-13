@@ -5,7 +5,7 @@ sudo tar -C /usr/local/lib -xzf go1.15.2.linux-amd64.tar.gz
 
 sudo apt install -y build-essential
 
-echo > ~/.bash_profile <EOF
+echo > ~/.bash_profile <<EOF
 GO_HOME="/usr/local/lib/go"
 QUORUM_HOME="/usr/local/lib/quorum"
 PATH="$QUORUM_HOME/build/bin:$GO_HOME/bin:$PATH"
