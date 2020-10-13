@@ -12,6 +12,7 @@ echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bash_profile
 git clone https://github.com/ConsenSys/quorum.git
 cd quorum
 make all
+cd ..
 
 sudo mv quorum /usr/local/.
 
