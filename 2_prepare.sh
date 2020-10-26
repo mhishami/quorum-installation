@@ -15,6 +15,7 @@ cd nodes/node0
 
 cd ${CURR}
 LOG=accounts.log
+cat /dev/null > $LOG
 for n in $NODES; do
 	geth --datadir nodes/node${n}/data account new < passphrase >> $LOG
 done
