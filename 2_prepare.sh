@@ -1,19 +1,20 @@
 #!/bin/sh
 #
 
-mkdir -p nodes/node0/data/geth
-mkdir -p nodes/node1/data/geth
-mkdir -p nodes/node2/data/geth
-mkdir -p nodes/node3/data/geth
-mkdir -p nodes/node4/data/geth
- 
-cd nodes/node0
-../../istanbul-tools/build/bin/istanbul setup --num 5 --nodes --quorum --save --verbose 
+CURR=`pwd`
+nodes=6
+NODES=`seq 0 ${nodes}`
 
-cd ../..
+
+for n in $NODES; do
+	mkdir -p nodes/node${n}/data/geth
+done
+
+cd nodes/node0
+../../istanbul-tools/build/bin/istanbul setup --num $(($nodes + 1)) --nodes --quorum --save --verbose 
+
+cd ${CURR}
 LOG=accounts.log
-geth --datadir nodes/node0/data account new < passphrase > $LOG
-geth --datadir nodes/node1/data account new < passphrase >> $LOG
-geth --datadir nodes/node2/data account new < passphrase >> $LOG
-geth --datadir nodes/node3/data account new < passphrase >> $LOG
-geth --datadir nodes/node4/data account new < passphrase >> $LOG
+for n in $NODES; do
+	geth --datadir nodes/node${n}/data account new < passphrase >> $LOG
+done
